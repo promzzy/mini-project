@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+
+body{
+	margin: 0px;
+}
+.topbar{
+	border-top: 1px solid green;
+	height: 100px;
+	/*border-style: solid;
+	border-color: skyblue;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fafafa;
+	box-shadow: 2px 2px 3px 2px #f1f1f1;  /*rgba(255,68,110,0.4)*/
+}
+.topbar a{
+	margin: 12px 12px 12px 3px;
+	color: black;
+	padding: 3px;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+}
+.banner{
+	background: linear-gradient(rgba(34,35,101,0.3),rgba(97,56,200,0.2),rgba(100,37,200,0.4)), url(../image/3.jpg);
+	background-position: center;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.banner h3,p {
+	color: white;
+	font-weight: bold;
+}
+.banner h3{
+	font-size: 45px;
+	font-family: 'Bowlby One SC', cursive;
+}
+.banner p{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	letter-spacing: 3.5px;
+}
+.card-container{
+	display: flex;
+	justify-content: space-around;
+	height: 300px;
+	margin-top: -150px;
+	z-index: 400;
+}
+.card-container div {
+	height: 100%;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	margin: 20px;
+}
+.card-1{
+	background-color: rgba(70,150,190,0.9995);
+}
+.card-2{
+	background-color: rgba(10,20,190,0.994);
+}
+.card-3{
+	background-color: rgba(100,50,150,0.993);
+}
+.card-container h3{
+	font-family: 'Bowlby One SC', cursive;
+	letter-spacing: 3.5px;
+}
