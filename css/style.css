@@ -74,3 +74,51 @@ body{
 	font-family: 'Bowlby One SC', cursive;
 	letter-spacing: 3.5px;
 }
+.grow {transition: all .2s ease-in-out; }
+.grow:hover{transform: all: scale(2.1); }
+.regbanner{
+	background: linear-gradient(rgba(34,25,101,0.7),rgba(97,56,200,0.9),rgba(109,37,200,0.6));
+	background-position: center;
+	height: 100px;
+	display: flex;
+	align-items: center;
+}
+.regbanner h3{
+	margin-left: 30px;
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 30px
+}
+.gallery-banner{
+	background: linear-gradient(rgba(34,25,101,0.7),rgba(97,56,200,0.9),rgba(109,37,200,0.6));
+	background-position: center;
+	height: 90px;
+	display: flex;
+	align-items: center;
+}
+.gallery-banner h3{
+	margin-left: 30px;
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 30px;
+}
+.login-banner{
+background: linear-gradient(rgba(34,25,101,0.6),rgba(97,56,200,0.8),rgba(109,37,200,0.5));
+height: 90px;
+display: flex;
+align-items: center;
+}
+.login-banner h3{
+	margin-left: 30px;
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 30px;
+}
+h5{
+	margin-top: 4px;
+	align-items: center;
+}
+.create-account{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 10px;
+	font-weight: 10px;
+}
